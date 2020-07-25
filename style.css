@@ -1,0 +1,146 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.submain {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  width: 400px;
+  height: 550px;
+  margin: 10px 0px 10px 460px;
+}
+
+.fas {
+  margin: 20px 0px 0px 20px;
+}
+
+.sign {
+  display: flex;
+  justify-content: space-between;
+  background-color: #48D1CC;
+  color: white;
+}
+
+.form-group {
+  margin: 20px 10px 10px 10px;
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+}
+
+.icon {
+  padding: 9px;
+  color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.close {
+  color: #fff;
+  margin: 15px 20px 15px 15px;
+}
+
+.but-sign {
+  display: block;
+  width: 95%;
+  border: none;
+  background-color: #48D1CC;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 10px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.forgot-reg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pas {
+  margin: 10px;
+}
+
+h5 {
+  color: #999999;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+
+h5:before, h5:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+
+h5:before {
+  margin: 10px;
+}
+
+h5:after {
+  margin: 10px;
+}
+
+.but-f {
+  display: block;
+  width: 95%;
+  border: none;
+  background-color: #0000CD;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.but-g {
+  display: block;
+  width: 95%;
+  border: none;
+  background-color: #DC143C;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.but-eplo {
+  display: block;
+  width: 95%;
+  border: none;
+  background-color: #DAA520;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+  .submain {
+    width: 300px;
+    height: 550px;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:850px) {
+  .submain {
+    margin: 0px;
+  }
+}
